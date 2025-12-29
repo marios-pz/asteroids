@@ -17,6 +17,10 @@ def main():
     clock = pygame.time.Clock()
     dt = 0
 
+    print("Starting Asteroids")
+    print("Screen width:", SCREEN_WIDTH)
+    print("Screen height:", SCREEN_HEIGHT)
+
     updatable = pygame.sprite.Group()
     drawable = pygame.sprite.Group()
     asteroids = pygame.sprite.Group()
